@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <title>Cards Against Humanity</title>
+    <style>
+        body {
+            //background-color: #eeeeee;
+        }
+        #questionCard {
+            background-color: #000;
+            width: 100px;
+            min-height: 160px;
+            padding: 16px;
+            color: #fff;
+            margin: 16px auto;
+            font-weight: bold;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 4px;
+            -webkit-box-shadow: 5px 5px 22px 0 rgba(82,82,82,1);
+            -moz-box-shadow: 5px 5px 22px 0 rgba(82,82,82,1);
+            box-shadow: 5px 5px 22px 0 rgba(82,82,82,1);
+        }
+        .answer-cards {
+            display: flex;
+        }
+        .answer-card {
+            margin: 8px;
+            background-color: #fff;
+            width: 100px;
+            min-height: 160px;
+            padding: 16px;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 4px;
+            -webkit-box-shadow: 5px 5px 22px 0 rgba(82,82,82,1);
+            -moz-box-shadow: 5px 5px 22px 0 rgba(82,82,82,1);
+            box-shadow: 5px 5px 22px 0 rgba(82,82,82,1);
+        }
+    </style>
+</head>
+<body>
+
+<div id="questionCard"></div>
+
+<div class="answer-cards">
+
+</div>
+
+<script src="questions.js"></script>
+<script src="answers.js"></script>
+<script src="logic.js"></script>
+</body>
+</html>
